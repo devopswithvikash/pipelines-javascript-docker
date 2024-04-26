@@ -19,7 +19,7 @@ variables:
   imagePullSecret: 'devopswithmedc41-auth'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  pool: 'Azure Pipelines'
 
 
 stages:
