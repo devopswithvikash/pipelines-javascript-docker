@@ -5,6 +5,8 @@
 trigger:
 - main
 
+pool: 'MyAgent'
+
 resources:
 - repo: self
 
@@ -19,7 +21,6 @@ variables:
   imagePullSecret: 'devopswithmedc41-auth'
 
   # Agent VM image name
-  pool: 'Azure Pipelines'
 
 
 stages:
